@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="icon" type="image/png" href="img/pexels-daian-gan-102127.jpg"><!--https://www.pexels.com/es-es/foto/fotografia-de-foco-superficial-de-pincel-102127/-->
+        <title>Buscador de Arte - Consulta</title>
+    </head>
+    <body>
+        <header>
+            <img id="imagen" src="img/pexels-stayhereforu-11847807.jpg" alt="Manos">
+            <img id="imagen3" src="img/pexels-alessandro-bonanni-11488549.jpg" alt="Observador">
+            <img id="imagen5" src="img/pexels-kristóf-sasskovan-10828358.jpg" alt="Observadoras">
+            <img id="imagen2" src="img/pexels-stayhereforu-11847807.jpg" alt="Manos">
+            <img id="imagen4" src="img/pexels-alessandro-bonanni-11488549.jpg" alt="Observador">
+            <img id="imagen6" src="img/pexels-kristóf-sasskovan-10828358.jpg" alt="Observadoras">
+            <article id="title">
+                <h1><b>BuscArte:<br/>Buscador de Arte</b></h1>
+                <h2><b>Tu portal de consulta</b></h2>
+            </article>
+        </header>
+        <nav class="separador">
+            <br/>
+        </nav>
+        <nav class="menu">
+            <ul>
+                <li><a class="inactive" href=index.html>Inicio</a></li>
+                <li><a class="active" href=consulta.html>Consulta</a></li>
+                <li><a class="inactive" href=about.html>Sobre nosotros</a></li>
+                <li><a class="inactive" href=admin.html>Administrador</a></li>
+            </ul>
+        </nav>
+        <nav class="separador">
+            <br/>
+        </nav>
+        <nav class="main">
+            <div id="contenido4" class="contenido">
+                <!--<img id="motiv" src="img/pexels-keegan-everitt-1001835.jpg" alt="Miguel Ángel">-->
+                <!--<nav class="imgcont"><img id="motiv" src="img/pexels-keegan-everitt-1001835.jpg" alt="Miguel Ángel"></nav>
+                <nav class="txtcont"><p>El disfrute del arte favorece el desarrollo de la sensibilidad, la cultura y la educación. En esta página podrás ubicar la obra de arte de tu interés según sus características, así como obtener información complementaria de una obra cuyo nombre sea conocido.</p></nav>-->
+                <p class="txtcont"><h3>Busca una obra</h3></p><br/>
+                <nav>
+                    <label>Nombre</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>El grito</option>
+                        <option>La Gioconda</option>
+                        <option>El David</option>
+                    </select>
+                </nav>
+                <nav>
+                    <label>Artista</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Edvard Munch</option>
+                        <option>Leonardo Da Vinci</option>
+                        <option>Miguel Angel Buonarroti</option>
+                    </select>
+                </nav>
+                <nav>
+                    <label>Año</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>1893</option>
+                        <option>1503</option>
+                        <option>1501</option>
+                    </select>
+                </nav>
+                <nav>
+                    <label>Tipo</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Pintura</option>
+                        <option>Escultura</option>
+                    </select>
+                </nav>
+                <nav>
+                    <label>Estilo</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Expresionismo</option>
+                        <option>Renacimiento Italiano</option>
+                        <option>Renacimiento</option>
+                    </select>
+                </nav>
+                <nav>
+                    <label>Tema</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Emociones</option>
+                        <option>Mujer</option>
+                        <option>Hombre</option>
+                    </select>
+                </nav>
+                <nav>
+                    <label>Materiales</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option>Óleo y pastel sobre cartón</option>
+                        <option>Óleo sobre álamo</option>
+                        <option>Mármol blanco</option>
+                    </select>
+                </nav>
+                <nav class="boton">
+                    <button>Buscar</button>
+                </nav>
+            </div>
+            <div class="separadorh">
+            </div>
+            <div id="contenido5" class="contenidoc">
+                <h3>Resultados de la búsqueda</h3>
+                <p class="txtcont">A continuación, se presentan los resultados de tu búsqueda. Para ver la información completa de una obra, oprime el enlace correspondiente a la obra en la columna Ficha.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>ID</td>
+                            <td>Nombre</td>
+                            <td>Artista</td>
+                            <td>Año</td>
+                            <td>Tipo</td>
+                            <td>Estilo</td>
+                            <td>Tema</td>
+                            <td>Materiales</td>
+                            <td>Ficha</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>El grito</td>
+                            <td>Edvard Munch</td>
+                            <td>1893</td>
+                            <td>Pintura</td>
+                            <td>Expresionismo</td>
+                            <td>Emociones</td>
+                            <td>Óleo y pastel sobre cartón</td>
+                            <td><a href="consulta1.html">Ver ficha</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>La Gioconda</td>
+                            <td>Leonardo Da Vinci</td>
+                            <td>1503</td>
+                            <td>Pintura</td>
+                            <td>Renacimiento Italiano</td>
+                            <td>Mujer</td>
+                            <td>Óleo sobre álamo</td>
+                            <td><a>Ver ficha</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>El David</td>
+                            <td>Miguel Ángel Buonarroti</td>
+                            <td>1501</td>
+                            <td>Escultura</td>
+                            <td>Renacimiento</td>
+                            <td>Hombre</td>
+                            <td>Mármol blanco</td>
+                            <td><a>Ver ficha</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>3 registros encontrados</p>
+            </div>
+        </nav>
+        <nav class="separador">
+            <br/>
+        </nav>
+        <footer>
+            <p>Producido por MM Corp</p>
+            <p>Cra. 00 No. 00 - 00</p>
+            <p>Teléfono: 601-0000000</p>
+            <p>Bogotá, Colombia</p>
+            <p><a href=mailto:mlmanriqueg@gmail.com>mlmanriqueg@gmail.com</a></p>
+        </footer>
+    </body>
+</html>

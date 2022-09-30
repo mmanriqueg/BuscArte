@@ -1,0 +1,297 @@
+html{
+    background-color: gray;
+    margin: 2%;
+    height: 180vh;
+    width: auto;
+}
+
+body{
+    background-color: gray;
+    margin: 2%;
+    height: 100vh;
+    width: auto;
+}
+
+header{
+    height: 30%;
+    background-color: black;
+    color: darkolivegreen;
+}
+
+#imagen, #imagen3, #imagen5{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+
+#imagen2, #imagen4, #imagen6{
+    height: 100%;
+    width: 10%;
+    float: right;
+}
+
+#imagengrupo{
+    height: 30%;
+    margin-bottom: 2%;
+    position: relative;
+    left: 18%;
+}
+
+#title{
+    height: 100%;
+    display: block;
+}
+
+/*main{
+    background-color: black;
+    color: white;
+    height: 54%;
+}*/
+
+.separador{
+    height: 5%;
+    background-color: gray;
+}
+
+.menu{
+    height: 8%;
+    background-color: black;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    /*height: 100%;*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li{
+    float: left;
+    display: block;
+    color: white;
+    width: 25%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.main{
+    height: 82.8%;
+}
+
+.mainformulario{
+    height: 82.8%;
+    background-color: black;
+}
+
+.contenido{
+    height: 100%;
+    width: 31.33%;
+    float: left;
+    /*background-color: black;*/
+    color: white;
+}
+
+.contenidoc{
+    height: 100%;
+    width: 65.66%;
+    float: left;
+    color: white;
+    /*background-color: black;*/
+}
+
+#contenido1{
+    background-image: url(img/pexels-keegan-everitt-1001835.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+#contenido2{
+    background-image: url(img/pexels-paul-blenkhorn-sensoryarthouse-3517899.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+#contenido3{
+    background-image: url(img/pexels-alex-y-2661943.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+#contenido4, #contenido9, #contenido13{
+    background-color: #4F410D;
+    line-height: 150%;
+}
+
+#contenido5, #contenido10, #contenido11, #contenido14{
+    background-color: darkslategray;
+    /*padding: 1%;*/
+}
+
+#contenido12{
+    background-color: darkslategray;
+    /*padding: 1%;*/
+}
+
+.contenidod{
+    column-count: 2;
+}
+
+#imagengrito{
+    height: 80%;
+    left: 2%;
+}
+
+#contenido6{
+    /*background-image: url(img/pexels-fauxels-3183150.jpg);
+    background-size: cover;
+    display: flex;
+    background: olive;
+    background-color: #604F10;*/
+    background-color: #4F410D;
+}
+
+#contenido7{
+    background-color: darkslategrey;
+    /*display: flex;    */
+}
+
+#contenido8{
+    /*background-image: url(img/pexels-george-milton-7015029.jpg);
+    background-size: cover;
+    background: cadetblue;
+    background-color: #6F0771;*/
+    background-color: #690771;
+}
+
+iframe{
+    margin-top: 2%;
+}
+
+.txtcont{
+    /*height: 20%;
+    width: auto;
+    background-color: black;*/
+    margin: 0;
+    font-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-self: flex-end;
+ }
+
+.separadorh{
+    height: 100%;
+    width: 3%;
+    background-color: gray;
+    float: left;
+}
+
+footer{
+    height: 30%;
+    background-color: black;
+    color: white;
+    line-height: 60%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+h1{
+    font-size: 4vw;
+    text-align: center;
+}
+
+h2{
+    font-size: 2vw;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+a{
+    color: gray;
+}
+
+table, tr, td{
+    /*border-color: white;*/
+    border: 1px solid white;
+    margin-top: 2%;
+}
+
+thead{
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody{
+    text-align: left;
+}
+
+.active{
+    /*vertical-align: middle;*/
+    display: block;
+    padding: 2%;
+    background-color:indigo;
+}
+
+.inactive{
+    /*vertical-align: middle;*/
+    display: block;
+    padding: 2%;
+    background-color: black;
+}
+
+.boton{
+    position: absolute;
+    left: 16.5%;
+}
+
+.boton2{
+    position: relative;
+    left: 45%;
+    margin-top: 2%;
+}
+
+#boton3{
+    position: relative;
+    left: 39%;
+}
+
+#boton4{
+    position: relative;
+    left: 35%;
+}
+
+#boton5{
+    position: relative;
+    left: 30%;
+}
+
+.ingresoinfo{
+    position: relative;
+    left: 30%;
+}
+
+
+
+
+
+#motiv{
+    height: 100%;
+    width: auto;
+}
+
+.imgcont{
+    height: 80%;
+    width: auto;
+    margin: 0;
+}
+
+/*contenido1.p{
+    font-size: 10%;
+    position: absolute;
+}*/
